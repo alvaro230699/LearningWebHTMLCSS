@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2{
+    font: bold 16px sans-serif;
+
+}
+header, section,footer,nav,aside,article,hgroup {
+    border: 1px solid  red;
+    display:block;
+}
+body {
+    text-align: center;
+}
+.seccion{
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 20px;
+    float: left;
+    width: 450px;
+
+}
+.agrupar {
+    width: 960px;
+    background: white;
+    margin:auto;
+
+}
+.citas {
+    float: left;
+    width: 450px;
+  
+}
+.citas blockquote {
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+h1{
+    text-align: left;
+}
+.navegacion{
+    text-align: left;
+}
+.navegacion li {
+    list-style: none;
+    margin: 5px 15px;
+    padding: 5px;
+    display: inline-block;
+}
+.pie {
+    clear: both;
+}
